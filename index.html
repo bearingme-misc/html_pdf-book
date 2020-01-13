@@ -5,13 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title> As Diretrizer da SBC </title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <title>Document</title>
 
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
     }
 
     a {
@@ -22,44 +24,86 @@
       color: rgb(49, 72, 109);
     }
 
-    h1,
-    h2,
-    p {
-      transform: scaleY(1.223);
-    }
-
-    header {
-      /* background-color: #444; */
-      height: 50vw;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    body {
+      background-color: #444;
     }
 
     .author {
       margin-top: 0.5vw;
-      font-size: 1.7vw;
-      line-height: 2.4vw;
+      font-size: 1.9vw;
+      line-height: 2.6vw;
     }
 
-    .align-items-center {
-      align-items: center;
+    .author a {
+      font-size: 2.08vw;
     }
 
-    .centralize-items {
+    .flex-center {
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
     }
+
+    .footnote hr{
+      background-color: #000;
+      width: 33%;
+      height: 0.2vw;
+      margin-top: 4vw;
+      margin-bottom: 1vw;
+      border-color: #000;
+    }
+
+    .footnote small {
+      font-size: 1.37vw;
+    }
+
+    .main-figure {
+      height: 91vw;
+      margin-top: 4vw;
+    }
+
+    .main-figure img {
+      height: 91vw;
+    }
+
+    .page {
+      background-color: #fff;
+      width: 100%;
+      height: 141.43vw;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    .text {
+      padding-left: 8.5vw;
+      padding-right: 8.5vw;
+    }
+
+    .text p {
+      color: #333;
+      margin-bottom: 2.7vw;
+      line-height: 3vw;
+      text-align: justify;
+      text-indent: 3vw;
+      font-size: 2.2vw;
+    }
+    
+    .text-column {
+      padding-top: 10vw;
+      column-count: 2;
+      column-gap: 4vw;
+    }
+
 
     .text-gray {
       color: #666;
+      font-weight: lighter;
     }
 
     .title {
       width: 87vw;
-      margin-top: 12.5%;
+      margin-top: 14vw;
       padding-top: 2%;
       text-align: center;
       text-transform: uppercase;
@@ -67,45 +111,154 @@
     }
 
     .title h1 {
-      font-size: 5.5vw;
+      font-size: 5.7vw;
     }
 
     .title h1 span {
-      font-size: 8.7vw;
+      font-size: 9.8vw;
       font-weight: bold;
     }
 
     .title h2 {
-      font-size: 3vw;
+      font-size: 3.8vw;
     }
 
     .title .subtitle-box {
-      background: rgb(9, 179, 164);
-      height: 6vw;
+      background: rgb(175, 164, 12);
+      height: 6.2vw;
       color: white;
       margin: 2% 1px 1px;
       border-radius: 4.5px;
     }
-  </style>
 
+    .m-0 {
+      margin: 0;
+    }
+  </style>
 </head>
 
 <body>
-  <header>
-    <article class="title">
-      <h1> ensino de computação na <span> educação básica </span></h1>
-      <div class="subtitle-box centralize-items">
-        <h2> as diretrizes da sbc </h2>
-      </div>
-    </article>
-    <article class="author">
-      <div class="centralize-items">
-        <p> POR </p>
+  <main class="flex-center">
+    <section class="page flex-center">
+      <article class="title">
+        <h1> ensino de computação na <span> educação básica </span></h1>
+        <div class="subtitle-box flex-center">
+          <h2> as diretrizes da sbc </h2>
+        </div>
+      </article>
+      <article class="author flex-center">
+        <p><strong> POR </strong></p>
         <p class="text-gray"> Leila Ribeiro </p>
         <a href="leila@inf.ufrgs.br"> leila@inf.ufrgs.br </a>
-      </div>
-    </article>
-  </header>
+      </article>
+      <figure class="main-figure">
+        <img src="./assets/capa.jpg" alt="jovens utilizando um computador">
+      </figure>
+    </section>
+
+    <section class="page">
+      <article class="text text-column">
+        <p>
+          Computação
+          é
+          uma
+          ciência com muitas
+          facetas. Por um lado, é
+          a ciência que explica o
+          que é e como funciona
+          o Mundo Digital, que
+          é composto não apenas por
+          máquinas capazes de computar,
+          mas também por componentes
+          virtuais (aplicativos, internet, etc.). 
+          Por outro lado, Computação
+          estuda o processo de resolução de
+          problemas através da construção
+          de algoritmos, desenvolvendo o
+          Pensamento Computacional. Tanto o
+          Mundo Digital quanto o Pensamento
+          Computacional causaram grandes
+          impactos no mundo, modificando a
+          forma como realizamos as tarefas
+          do dia a dia, nós nos comunicanos,
+          trabalhamos, enxergamos o mundo,
+          fazemos pesquisa em todas as áreas
+          do conhecimento. A Cultura Digital
+          engloba não somente o letramento
+          nas tecnologias digitais, mas também
+          uma compreensão mais profunda
+          da sociedade digital e seus valores
+          e exige reflexão sobre as diversas
+          questões éticas que surgiram ou foram
+          exacerbadas pela grande revolução
+          causada pela Computação. A Figura 1
+          apresenta estes três grandes eixos da
+          Computação.
+        </p>
+        <p>
+          Como a Computação faz parte da
+          vida de todos e o objetivo da Educação
+          Básica é preparar o cidadão para o
+          mundo, é essencial que os conceitos
+          fundamentais desta ciência sejam
+          introduzidos nas redes escolares de
+          todo o Brasil, como tem sido feito por
+          grande parte dos países do mundo.
+          Esta edição da Computação Brasil é
+          dedicada a este tema!
+        </p>
+        <p>
+          Para incluir Computação nos
+          currículos escolares, é necessário que
+          se defina quais habilidades e conceitos
+          devem ser desenvolvidos em cada
+          etapa escolar. A Sociedade Brasileira
+          de Computação definiu Diretrizes para
+          Ensino de Computação ao longo de
+          Educação Básica[1]. Essas diretrizes
+          foram elaboradas por especialistas
+          de várias áreas da Computação com
+          grande experiência em ensino<sup>1</sup> . Foram
+          definidos objetos de conhecimento
+          e habilidades a serem trabalhados
+          ao longo de todas etapas da vida
+          escolar, dando aos estudantes sólidos
+          subsídios não só para compreender o
+          mundo de hoje, tendo capacidade de
+          analisar criticamente tanto questões
+          técnicas quanto éticas relacionadas
+          à Computação, mas também para
+          ser um agente transformador, sendo
+          capaz de entender, analisar, discutir
+          e criar novas tecnologias digitais. Os
+          artigos <em>“Pensamento Computacional”</em>,
+          <em>“Mundo Digital”</em> e <em>“Cultura Digital”</em>
+          trazem detalhes sobre cada um dos
+          eixos dessas diretrizes.
+        </p>
+        <div class="footnote">
+          <hr>
+          <small>
+            <sup>1</sup>
+            Os membros das comissões da SBC que foram responsáveis
+            pela elaboração das diretrizes são (em ordem alfabética): André
+            Raabe, Antônio Augusto Fröhlich, Carlos André Guimarães
+            Ferraz, Carlos Eduardo Ferreira, Dalton Serey, Daniel de
+            Angelis Cordeiro, Ismar Frango Silveira, Leila Ribeiro, Luciana
+            Salgado, Márcia Kniphoff da Cruz, Nara Bigolin, Simone André
+            da Costa Cavalheiro, Sônia Fortes, Wagner Meira Jr.
+          </small>
+        </div>
+      </article>
+    </section>
+
+    <section class="page">
+      sadfsada
+    </section>
+    <section class="page m-0">
+      sadfsada
+    </section>
+  </main>
 </body>
 
 </html>
