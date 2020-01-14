@@ -6,22 +6,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+    integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
 
   <style>
+    figcaption {
+      padding-left: 8.5vw;
+      padding-right: 8.5vw;
+      text-transform: uppercase;
+    }
+
+    .flex-inline-center {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    figcaption i {
+      background-color: rgb(36, 144, 216);
+      color: white;
+      width: 3.75vw;
+      height: 3.75vw;
+      margin-right: 0.5vw;
+      font-size: 1.7vw;
+      border-radius: 50%;
+
+    }
+
+    img {
+      width: inherit;
+      height: inherit;
+    }
+
     .divider {
       background-color: #000;
       width: 12vw;
       margin-top: 4vw;
       margin-bottom: 0.5vw;
       border-bottom: 0.15vw solid;
-    }    
+    }
 
-    .footnote {
-      font-size: 1.3vw !important;
-      color: black !important;
-      line-height: 2vw !important;
+    .figure-1 {
+      width: 100%;
+      height: 62vw;
+    }
+
+    .figure-1 img {
+      margin-top: 0.3vw;
+      margin-bottom: 0.1vw;
     }
 
     .page {
@@ -45,16 +79,6 @@
       text-align: justify;
       text-indent: 3vw;
       font-size: 2.12vw;
-    }
-
-    .first-letter {
-      color: rgb(175, 164, 12);
-      width: 10vw;
-      height: 16.5vw;
-      font-size: 20vw;
-      padding-top: 1vw;
-      margin-right: 2vw;
-      float: left;
     }
 
     .text-column {
@@ -191,11 +215,91 @@
       </article>
     </section>
 
+    <!-- página 8  -->
     <section class="page">
-      sadfsada
+      <figure class="figure-1">
+        <img src="./assets/img/fig1.png" alt="eixos da computação">
+        <figcaption class="flex-inline-center text-gray">
+          <i class="fa fa-sticky-note flex-inline-center" aria-hidden="true"></i> <span> fig.01 | <strong>eixos da
+              computação</strong> </span>
+        </figcaption>
+      </figure>
+      <article class="text text-column">
+        <p>
+          O ensino de Computação auxilia
+          no desenvolvimento de todas
+          as competências gerais da Base
+          Nacional Comum Curricular[2],
+          como demonstra a Figura 2.
+        </p>
+        <p>
+          Os artigos <em>“Por que precisamos
+            de Computação na Educação Básica?”</em> e
+          <em>“Formação Educacional e Empregabilidade
+            em TIC”</em> trazem visões complementares
+          que reforçam a necessidade de
+          revisitarmos os currículos das redes
+          escolares brasileiras, tanto para
+          formar um cidadão efetivamente
+          inserido no mundo do século XXI
+          quanto no mercado de trabalho,
+          que hoje exige novas habilidades,
+          várias delas envolvendo domínio de
+          Computação. Já o artigo <em>“Programa
+            Meninas Digitais: inspirando a nova geração”</em>
+          demonstra
+          como
+          a Computação pode ajudar (e já
+          tem ajudado há vários anos) na
+          inserção feminina nas áreas de STEM
+          (Ciências, Tecnologias, Engenharias
+          e Matemática),
+          através de uma
+          diversidade de projetos em todo o Brasil
+          voltados para as meninas da Educação
+          Básica.
+        </p>
+        <p>
+          A elaboração das Diretrizes para o
+          Ensino de Computação na Educação
+          Básica não foi o primeiro passo da
+          SBC e da comunidade brasileira de
+          Computação nesta área. Uma longa
+          trajetória já foi percorrida, e está
+          resumida no artigo “ Computação
+          na
+          Educação
+          Básica:
+          Breve
+          Contextualização Histórica”. Neste
+          contexto, é importante ressaltar
+          que cursos de Licenciatura em
+        </p>
+      </article>
+
+      <!-- página 9 -->
     </section>
     <section class="page m-0">
-      sadfsada
+      <article class="text">
+        <p>
+          Computação já existem há mais de trinta anos no Brasil, tendo formado milhares
+          de professores capacitados nesta área. Agora, precisamos dar outros passos:
+          incorporar as diretrizes na BNCC, dando um norte para as escolas brasileiras;
+          transformar essas diretrizes em atividades integradas aos currículos das
+          redes escolares; capacitar mais professores ao ensino da Computação para que
+          possam desenvolver essas atividades; e criar material didático e de apoio. Inserir
+          Computação nas escolas não é uma tarefa fácil, mas com certeza a comunidade
+          de Computação do Brasil está pronta a auxiliar no que for necessário. Afinal,
+          resolver desafios construindo algoritmos (ou seja, planos) para soluciona-los é o
+          que fazemos melhor!
+        </p>
+      </article>
+      <figure class="figure-2">
+        <img src="./assets/img/fig2.jpg" alt="computação e competências gerais da bncc">
+        <figcaption class="flex-inline-center text-gray">
+          <i class="fas fa-sticky-note flex-inline-center"></i>
+        </figcaption>
+      </figure>
     </section>
   </main>
 </body>

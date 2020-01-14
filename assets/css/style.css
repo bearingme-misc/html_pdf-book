@@ -17,6 +17,10 @@ body {
   background-color: #444;
 }
 
+strong {
+  color: black !important;
+}
+
 .author {
   margin-top: 0.5vw;
   font-size: 1.9vw;
@@ -27,6 +31,16 @@ body {
   font-size: 2.08vw;
 }
 
+.first-letter {
+  color: rgb(175, 164, 12);
+  width: 10vw;
+  height: 16.5vw;
+  font-size: 20vw;
+  padding-top: 1vw;
+  margin-right: 2vw;
+  float: left;
+}
+
 .flex-center {
   display: flex;
   flex-direction: column;
@@ -34,13 +48,15 @@ body {
   align-items: center;
 }
 
+.footnote {
+  font-size: 1.3vw !important;
+  color: black !important;
+  line-height: 2vw !important;
+}
+
 .main-figure {
   height: 91vw;
   margin-top: 4vw;
-}
-
-.main-figure img {
-  height: 91vw;
 }
 
 .title {
