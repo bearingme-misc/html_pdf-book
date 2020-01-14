@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: rgb(84, 120, 179);
+}
+
+a:hover {
+  color: rgb(49, 72, 109);
+}
+
+body {
+  background-color: #444;
+}
+
+.author {
+  margin-top: 0.5vw;
+  font-size: 1.9vw;
+  line-height: 2.6vw;
+}
+
+.author a {
+  font-size: 2.08vw;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-figure {
+  height: 91vw;
+  margin-top: 4vw;
+}
+
+.main-figure img {
+  height: 91vw;
+}
+
+.title {
+  width: 87vw;
+  margin-top: 14vw;
+  padding-top: 2%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title h1 {
+  font-size: 5.7vw;
+}
+
+.title h1 span {
+  font-size: 9.8vw;
+  font-weight: bold;
+}
+
+.title h2 {
+  font-size: 3.8vw;
+}
+
+.title .subtitle-box {
+  background: rgb(175, 164, 12);
+  height: 6.2vw;
+  color: white;
+  margin: 2% 1px 1px;
+  border-radius: 4.5px;
+}
