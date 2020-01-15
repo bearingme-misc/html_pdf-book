@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
 }
 
 :root {
@@ -24,8 +23,9 @@ body {
 figcaption {
   padding-left: 8.5vw;
   padding-right: 8.5vw;
-  font-size: 1.6vw;
+  font-size: 1.8vw;
   text-transform: uppercase;
+  font-family: 'Rajdhani', serif !important;
 }
 
 figcaption i {
@@ -37,14 +37,24 @@ figcaption i {
   border-radius: 50%;
 }
 
-strong {
-  color: black !important;
+h1, h2, h3, h4 {
+  font-family: 'Rajdhani', 'sans-serif' !important;
 }
 
 img {
   width: inherit;
   height: inherit;
 }
+
+p {
+  font-family:  'Roboto Slab', serif;
+  font-weight: normal;
+}
+
+strong {
+  color: black !important;
+}
+
 
 .author {
   margin-top: 0.5vw;
@@ -78,11 +88,11 @@ img {
 }
 
 .divider {
-  background-color: #000;
+  background-color: #333;
   width: 12vw;
   margin-top: 4vw;
   margin-bottom: 0.5vw;
-  border-bottom: 0.15vw solid;
+  border-bottom: 0.2vw solid;
 }
 
 .figure-1 {
@@ -128,6 +138,10 @@ img {
   align-items: center;
 }
 
+.font-rajdhani {
+  font-family: 'Rajdhani', serif !important;
+}
+
 .footnote {
   font-size: 1.3vw !important;
   color: black !important;
@@ -156,12 +170,14 @@ img {
 }
 
 .page-counter {
+  color: #333;
   position: absolute;
   text-transform: uppercase;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
 }
 
 .page-counter strong {
+  font-size: 1.5vw;
   margin: 1vw;
 }
 
@@ -231,20 +247,22 @@ img {
 
 .title {
   width: 87vw;
-  margin-top: 14vw;
+  margin-top: 11vw;
   padding-top: 2%;
   text-align: center;
   text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
 }
 
 .title h1 {
-  font-size: 5.7vw;
+  font-size: 7vw;
+  font-weight: bold;
+  line-height: 10.9vw;
 }
 
 .title h1 span {
-  font-size: 9.8vw;
-  font-weight: bold;
+  font-size: 11.59vw;
+  font-weight: bolder !important;
 }
 
 .title h2 {
@@ -255,6 +273,6 @@ img {
   background: rgb(175, 164, 12);
   height: 6.2vw;
   color: white;
-  margin: 2% 1px 1px;
+  margin: -1vw 1px 1px;
   border-radius: 4.5px;
 }
