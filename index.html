@@ -5,101 +5,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Diretrizes da SBC</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
     integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="./assets/css/style.css">
 
   <style>
-    figcaption {
-      padding-left: 8.5vw;
-      padding-right: 8.5vw;
+    .page-counter {
+      position: absolute;
       text-transform: uppercase;
+      bottom: -35vw;
+      left: 8.5vw;
+      font-size: 1.5vw;
+      display: inline;
+    }
+  
+    .page-counter-left {
+      left: 8.5vw;
     }
 
-    .flex-inline-center {
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
+    .page-counter-right {
+      right: 8.5vw;
     }
 
-    figcaption i {
-      background-color: rgb(36, 144, 216);
-      color: white;
-      width: 3.75vw;
-      height: 3.75vw;
-      margin-right: 0.5vw;
-      font-size: 1.7vw;
-      border-radius: 50%;
-
-    }
-
-    img {
-      width: inherit;
-      height: inherit;
-    }
-
-    .divider {
-      background-color: #000;
-      width: 12vw;
-      margin-top: 4vw;
-      margin-bottom: 0.5vw;
-      border-bottom: 0.15vw solid;
-    }
-
-    .figure-1 {
-      width: 100%;
-      height: 62vw;
-    }
-
-    .figure-1 img {
-      margin-top: 0.3vw;
-      margin-bottom: 0.1vw;
-    }
-
-    .page {
-      background-color: #fff;
-      width: 100%;
-      height: 141.43vw;
-      margin-bottom: 10px;
-      overflow: hidden;
-    }
-
-    .text {
-      padding-left: 8.5vw;
-      padding-right: 8.5vw;
-      padding-bottom: 10vw;
-    }
-
-    .text p {
-      color: #333;
-      margin-bottom: 2.7vw;
-      line-height: 3vw;
-      text-align: justify;
-      text-indent: 3vw;
-      font-size: 2.12vw;
-    }
-
-    .text-column {
-      padding-top: 10vw;
-      column-count: 2;
-      column-gap: 4vw;
-    }
-
-    .text-indent-0 {
-      text-indent: 0 !important;
-    }
-
-    .text-gray {
-      color: #666;
-      font-weight: lighter;
-    }
-
-    .m-0 {
-      margin: 0;
-    }
   </style>
+
 </head>
 
 <body>
@@ -120,6 +52,7 @@
       <figure class="main-figure">
         <img src="./assets/img/capa.jpg" alt="jovens utilizando um computador">
       </figure>
+      <div class="page-counter text-gray"><strong>6</strong> computação brasil | novembro 2019 </div>
     </section>
 
     <!-- página 7  -->
@@ -219,12 +152,12 @@
     <section class="page">
       <figure class="figure-1">
         <img src="./assets/img/fig1.png" alt="eixos da computação">
-        <figcaption class="flex-inline-center text-gray">
+        <figcaption class="text-gray">
           <i class="fa fa-sticky-note flex-inline-center" aria-hidden="true"></i> <span> fig.01 | <strong>eixos da
               computação</strong> </span>
         </figcaption>
       </figure>
-      <article class="text text-column">
+      <article class="text text-column pt-1">
         <p>
           O ensino de Computação auxilia
           no desenvolvimento de todas
@@ -280,7 +213,7 @@
       <!-- página 9 -->
     </section>
     <section class="page m-0">
-      <article class="text">
+      <article class="text pt-1 pb-0">
         <p>
           Computação já existem há mais de trinta anos no Brasil, tendo formado milhares
           de professores capacitados nesta área. Agora, precisamos dar outros passos:
@@ -296,10 +229,32 @@
       </article>
       <figure class="figure-2">
         <img src="./assets/img/fig2.jpg" alt="computação e competências gerais da bncc">
-        <figcaption class="flex-inline-center text-gray">
-          <i class="fas fa-sticky-note flex-inline-center"></i>
+        <figcaption class="text-gray">
+          <i class="fa fa-sticky-note flex-inline-center" aria-hidden="true"></i> <span> fig.02 | <strong>computação e
+              as competências gerais da bncc</strong> </span>
         </figcaption>
       </figure>
+      <article class="footer">
+        <div class="reference text-gray">
+          <p><strong>Referências</strong></p>
+          <p>[1] SBC. Diretrizes para o ensino de Computação na Educação Básica. 2018. https://www.sbc.org.br/educacao/diretrizes-para-ensi-
+            no-de-computacao-na-educacao-basica</p>
+          <p>[2] MEC. Base Nacional Comum Curricular. http://basenacionalcomum.mec.gov.br/</p>
+        </div>
+        <div class="description flex-inline-center">
+            <figure class="author-figure">
+              <img src="./assets/img/autor.jpg" alt="fotográfia de Leila Ribeiro">
+            </figure>
+            <p>
+              <strong>LEILA RIBEIRO</strong> é Professora Titular do Instituto de Informática da Universidade Federal do
+              Rio Grande do Sul, com doutorado pela Universidade Técnica de Berlim/Alemanha (1996).
+              É Diretora de Ensino de Computação na Educação Básica da SBC e membro do IFIP TC1
+              (Fundamentos da Computação). Suas áreas de interesse são Fundamentos da Computação
+              (em especial Modelos de Computação e Métodos Formais), Ensino de Computação (em
+              especial Pensamento Computacional) e Bioinformática.
+            </p>
+        </div>
+      </article>
     </section>
   </main>
 </body>

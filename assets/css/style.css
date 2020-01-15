@@ -17,8 +17,29 @@ body {
   background-color: #444;
 }
 
+figcaption {
+  padding-left: 8.5vw;
+  padding-right: 8.5vw;
+  font-size: 1.6vw;
+  text-transform: uppercase;
+}
+
+figcaption i {
+  background-color: rgb(36, 144, 216);
+  color: white;
+  width: 3.75vw;
+  height: 3.75vw;
+  font-size: 1.7vw;
+  border-radius: 50%;
+}
+
 strong {
   color: black !important;
+}
+
+img {
+  width: inherit;
+  height: inherit;
 }
 
 .author {
@@ -29,6 +50,55 @@ strong {
 
 .author a {
   font-size: 2.08vw;
+}
+
+.description {
+  background-color: #ddd;
+  margin-top: 1.4vw;
+  height: 15.2vw;
+  border-right: rgb(175, 164, 12) solid 1.7vw;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.description figure {
+  height: inherit;
+}
+
+.description p {
+  color: #333;
+  font-size: 1.5vw;
+  text-align: justify;
+  padding-right: 1.8vw;
+  padding-left: 4vw;
+}
+
+.divider {
+  background-color: #000;
+  width: 12vw;
+  margin-top: 4vw;
+  margin-bottom: 0.5vw;
+  border-bottom: 0.15vw solid;
+}
+
+.figure-1 {
+  width: 100%;
+  height: 62vw;
+}
+
+.figure-1 img {
+  margin-top: 0.3vw;
+  margin-bottom: 0.1vw;
+}
+
+.figure-2 {
+  width: 100%;
+  height: 60vw;
+}
+
+.figure-2 img {
+  margin-top: 1vw;
+  padding: 0 12vw;
 }
 
 .first-letter {
@@ -48,15 +118,81 @@ strong {
   align-items: center;
 }
 
+.flex-inline-center {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .footnote {
   font-size: 1.3vw !important;
   color: black !important;
   line-height: 2vw !important;
 }
 
+.footer {
+  margin: 8vw;
+}
+
 .main-figure {
   height: 91vw;
   margin-top: 4vw;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.page {
+  background-color: #fff;
+  width: 100%;
+  height: 141.43vw;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+.pt-1 {
+  padding-top: 6vw !important;
+}
+
+.reference {
+  text-align: justify;
+  font-size: 1.3vw;
+  line-height: 2.2vw;
+}
+
+.text {
+  padding-left: 8.5vw;
+  padding-right: 8.5vw;
+  padding-bottom: 10vw;
+}
+
+.text p {
+  color: #333;
+  margin-bottom: 2.7vw;
+  line-height: 3vw;
+  text-align: justify;
+  text-indent: 3vw;
+  font-size: 2.12vw;
+}
+
+.text-column {
+  padding-top: 10vw;
+  column-count: 2;
+  column-gap: 4vw;
+}
+
+.text-indent-0 {
+  text-indent: 0 !important;
+}
+
+.text-gray {
+  color: #666;
+  font-weight: lighter;
 }
 
 .title {
